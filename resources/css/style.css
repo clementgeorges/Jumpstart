@@ -66,6 +66,10 @@ html {
     font-family: Open-sans;
 }
 
+p {
+ color: rgba(0, 0, 0, 0.7); 
+}
+
 /* Navigation Section */
 
 .navbar-nav {
@@ -97,4 +101,67 @@ li a {
 li a:hover{
   text-decoration: none;
   color:rgb(131, 130, 130);
+}
+
+/* Banner Section */
+
+.jumbotron-bike {
+  background-image: url("/Users/clementgeorges/Documents/DevProject/jumpStart/resources/images/jumbotron-bike.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 11.85rem 0;
+  text-align: center;
+}
+
+.jumbotron-bike h1 {
+  font-family: Monoton;
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: white; 
+}
+
+.jumboTextShaddow {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.jumbotron-bike .btn {
+  padding: 1.3rem 11.4rem;
+  margin: 2.8rem 0 0 0;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron-bike .btn:hover{
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.jumbotron-bike .btn:active{
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Feature Project Section */
+
+.col-sm-12 h2{
+  margin: 0 0 1.42rem 0;
+  color: #399bd1;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.prodCat {
+  color: #399bd1;
+}
+
+.prodList {
+  line-height: 0.5;
 }
