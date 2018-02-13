@@ -66,10 +66,35 @@ html {
     font-family: Open-sans;
 }
 
-.navbar-header {
-  display: flex;
+/* Navigation Section */
+
+.navbar-nav {
+  flex-direction: row;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
-.navbar-header a{
-  padding: 0 1rem;
+.navbar-nav a {
+  margin: 0 1rem;
+}
+
+.active a {
+  color: rgb(107, 107, 107);
+  background-color: rgb(202, 202, 202);
+  padding: 1rem;
+}
+
+.active a:hover{
+  color: #399bd1;
+  background-color: white;
+  transition: 200ms linear;
+}
+
+li a {
+  color: rgb(107, 107, 107);
+}
+
+li a:hover{
+  text-decoration: none;
+  color:rgb(131, 130, 130);
 }
