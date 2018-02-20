@@ -18,7 +18,7 @@ $(document).ready(function(){
       } else if (lastScrollTop - scrollTop > 50) {
         $('.navbar').animate({top: '0px'}, 150);
         lastScrollTop = scrollTop;
-      }
+      };
   });
 });
 
